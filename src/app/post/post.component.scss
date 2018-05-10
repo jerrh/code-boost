@@ -1,0 +1,37 @@
+
+$bg: #333333;
+$text-color: #878686;
+$accent-color: #878686;;
+
+label {
+    color:#878686;;
+    font-size:1.5em;
+}
+
+input[type='text'],textarea {
+    background:none;
+    border: 1px solid #878686;
+    padding:22px 15px;
+    color:$text-color;
+}
+
+textarea {
+    min-height: 4.8em;
+}
+
+.filled {
+    background: #A2090A;
+    color:#fff;
+    float:right;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-transform:uppercase;
+    font-family:'Raleway';
+    font-weight:700;
+    padding: 12px 22px;
+    border: none !important;
+}
+
+.alert {
+    margin: -5px 0 20px 0;
+}
